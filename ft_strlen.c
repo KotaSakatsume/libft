@@ -6,13 +6,13 @@
 /*   By: kosakats <kosakats@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 20:00:30 by kosakats          #+#    #+#             */
-/*   Updated: 2024/11/10 16:35:39 by kosakats         ###   ########.fr       */
+/*   Updated: 2024/11/11 21:04:04 by kosakats         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strlen(const char *str)
+size_t	ft_strlen(const char *str)
 {
 	int	count;
 

@@ -6,15 +6,15 @@
 /*   By: kosakats <kosakats@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 10:32:39 by kosakats          #+#    #+#             */
-/*   Updated: 2024/11/10 16:20:07 by kosakats         ###   ########.fr       */
+/*   Updated: 2024/11/11 21:04:01 by kosakats         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strdup(const char *s1)
+char	*ft_strdup(const char *s)
 {
-	return (ft_substr(s1, 0, ft_strlen((char *)s1)));
+	return (ft_substr(s, 0, ft_strlen((char *)s)));
 }
 /*
 int	main(void)

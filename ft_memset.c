@@ -6,20 +6,20 @@
 /*   By: kosakats <kosakats@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 20:06:25 by kosakats          #+#    #+#             */
-/*   Updated: 2024/11/08 21:06:53 by kosakats         ###   ########.fr       */
+/*   Updated: 2024/11/11 21:04:00 by kosakats         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memset(void *b, int c, size_t len)
+void	*ft_memset(void *s, int c, size_t n)
 {
 	size_t			i;
 	unsigned char	*arr;
 
-	arr = (unsigned char *)b;
+	arr = (unsigned char *)s;
 	i = 0;
-	while (i < len)
+	while (i < n)
 	{
 		arr[i] = (unsigned char)c;
 		i++;
